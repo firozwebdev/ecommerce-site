@@ -1,0 +1,68 @@
+/* HD Layout: 1920px. */
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+
+}
+
+/* Laptop with HDPI: 1440px */
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+}
+
+/* Nrmal PC: 1366px */
+@media only screen and (min-width: 1301px) and (max-width: 1399px) {
+
+}
+
+/* Laptop with MDPI: 1280px */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+
+}
+
+/* Medium Layout(iPad Pro): 1024px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-content .header-logo .logo-site img {
+    max-width: 125px;
+  }
+}
+
+/* Mobile Layout: 375px. */
+
+@media only screen and (max-width: 767px) {
+  .header-content .header-logo .logo-site img {
+    max-width: 125px;
+  }
+  .m-m-t-40 {
+    margin-top: 40px;
+  }
+  #payment .payment_methods li label {
+      width: 90%;
+  }
+  #payment .terms label {
+      margin-left: 10px;
+  }
+  tr.shipping th {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Wide Mobile Layout(Nexus 7): 600px. */
+@media only screen and (max-width: 610px) {
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 500px) {
+}
+
+/* Mobile Layout(Samsung Galaxy S5): 360px. */
+@media only screen and (max-width: 370px) {
+}
+
+/* Mobile Layout(iPhone 4): 320px. */
+@media only screen and (max-width: 330px) {
+
+}
